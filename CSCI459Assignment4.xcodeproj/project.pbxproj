@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		697A6D131BDE98BC003581CE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 697A6D121BDE98BC003581CE /* main.c */; };
+		697A6D1A1BDE9A35003581CE /* network_layer.c in Sources */ = {isa = PBXBuildFile; fileRef = 697A6D191BDE9A35003581CE /* network_layer.c */; settings = {ASSET_TAGS = (); }; };
+		697A6D1D1BDE9ABD003581CE /* data_link_layer.c in Sources */ = {isa = PBXBuildFile; fileRef = 697A6D1C1BDE9ABD003581CE /* data_link_layer.c */; settings = {ASSET_TAGS = (); }; };
+		697A6D1F1BDE9AC9003581CE /* physical_wire.c in Sources */ = {isa = PBXBuildFile; fileRef = 697A6D1E1BDE9AC9003581CE /* physical_wire.c */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,10 @@
 
 /* Begin PBXFileReference section */
 		697A6D0F1BDE98BC003581CE /* CSCI459Assignment4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSCI459Assignment4; sourceTree = BUILT_PRODUCTS_DIR; };
-		697A6D121BDE98BC003581CE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		697A6D191BDE9A35003581CE /* network_layer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = network_layer.c; sourceTree = "<group>"; };
+		697A6D1B1BDE9A5B003581CE /* structs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structs.h; sourceTree = "<group>"; };
+		697A6D1C1BDE9ABD003581CE /* data_link_layer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = data_link_layer.c; sourceTree = "<group>"; };
+		697A6D1E1BDE9AC9003581CE /* physical_wire.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = physical_wire.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,10 @@
 		697A6D111BDE98BC003581CE /* CSCI459Assignment4 */ = {
 			isa = PBXGroup;
 			children = (
-				697A6D121BDE98BC003581CE /* main.c */,
+				697A6D1C1BDE9ABD003581CE /* data_link_layer.c */,
+				697A6D191BDE9A35003581CE /* network_layer.c */,
+				697A6D1B1BDE9A5B003581CE /* structs.h */,
+				697A6D1E1BDE9AC9003581CE /* physical_wire.c */,
 			);
 			path = CSCI459Assignment4;
 			sourceTree = "<group>";
@@ -118,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				697A6D131BDE98BC003581CE /* main.c in Sources */,
+				697A6D1F1BDE9AC9003581CE /* physical_wire.c in Sources */,
+				697A6D1A1BDE9A35003581CE /* network_layer.c in Sources */,
+				697A6D1D1BDE9ABD003581CE /* data_link_layer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
